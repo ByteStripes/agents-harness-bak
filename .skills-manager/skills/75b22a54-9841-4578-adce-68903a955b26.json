@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "75b22a54-9841-4578-adce-68903a955b26",
+  "path": "daisyui",
+  "path_key": "daisyui",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

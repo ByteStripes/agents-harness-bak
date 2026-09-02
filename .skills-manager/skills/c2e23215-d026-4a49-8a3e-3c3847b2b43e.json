@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c2e23215-d026-4a49-8a3e-3c3847b2b43e",
+  "path": "aliyun-sls-sop",
+  "path_key": "aliyun-sls-sop",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

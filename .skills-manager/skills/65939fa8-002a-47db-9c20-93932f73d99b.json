@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "65939fa8-002a-47db-9c20-93932f73d99b",
+  "path": "apple-design",
+  "path_key": "apple-design",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "emilkowalski/skills/apple-design",
+    "subpath": "skills\\apple-design",
+    "branch": null
+  }
+}

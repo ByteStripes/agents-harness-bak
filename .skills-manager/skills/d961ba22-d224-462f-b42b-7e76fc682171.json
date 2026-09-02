@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d961ba22-d224-462f-b42b-7e76fc682171",
+  "path": "skill-sentinel",
+  "path_key": "skill-sentinel",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

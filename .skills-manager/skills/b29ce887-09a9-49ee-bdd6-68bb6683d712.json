@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b29ce887-09a9-49ee-bdd6-68bb6683d712",
+  "path": "stop-slop-cn",
+  "path_key": "stop-slop-cn",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
