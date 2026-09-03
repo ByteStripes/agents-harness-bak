@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "26745e45-91d2-469e-aaf9-97ebe615a4ec",
+  "path": "sdk",
+  "path_key": "sdk",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

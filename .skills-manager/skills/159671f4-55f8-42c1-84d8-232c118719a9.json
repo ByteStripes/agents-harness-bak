@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "159671f4-55f8-42c1-84d8-232c118719a9",
+  "path": "frappe-ui",
+  "path_key": "frappe-ui",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

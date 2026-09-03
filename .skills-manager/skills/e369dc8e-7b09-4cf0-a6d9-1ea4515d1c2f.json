@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e369dc8e-7b09-4cf0-a6d9-1ea4515d1c2f",
+  "path": "tscanplus",
+  "path_key": "tscanplus",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

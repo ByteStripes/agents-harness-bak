@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "076d4d85-e6b7-431a-818b-c8dd8200e638",
+  "path": "project-knowledge",
+  "path_key": "project-knowledge",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

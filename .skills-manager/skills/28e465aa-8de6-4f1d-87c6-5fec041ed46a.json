@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "28e465aa-8de6-4f1d-87c6-5fec041ed46a",
+  "path": "design-dna",
+  "path_key": "design-dna",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "80e140b8-052a-4956-9ea0-448f291a580b",
+  "path": "wecom-connect",
+  "path_key": "wecom-connect",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

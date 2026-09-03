@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "07e5460d-715e-403c-9cfa-f29516d283b8",
+  "path": "pmaster__skillhub",
+  "path_key": "pmaster__skillhub",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

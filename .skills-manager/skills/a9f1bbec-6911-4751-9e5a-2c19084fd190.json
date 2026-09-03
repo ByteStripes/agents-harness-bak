@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a9f1bbec-6911-4751-9e5a-2c19084fd190",
+  "path": "weekly-report-writer",
+  "path_key": "weekly-report-writer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

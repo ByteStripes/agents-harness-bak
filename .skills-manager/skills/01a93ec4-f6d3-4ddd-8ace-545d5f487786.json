@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "01a93ec4-f6d3-4ddd-8ace-545d5f487786",
+  "path": "workbuddy-guide",
+  "path_key": "workbuddy-guide",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

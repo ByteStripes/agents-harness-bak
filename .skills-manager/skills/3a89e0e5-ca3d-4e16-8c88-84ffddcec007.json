@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3a89e0e5-ca3d-4e16-8c88-84ffddcec007",
+  "path": "react-native-best-practices",
+  "path_key": "react-native-best-practices",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

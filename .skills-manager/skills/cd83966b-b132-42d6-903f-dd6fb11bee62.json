@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cd83966b-b132-42d6-903f-dd6fb11bee62",
+  "path": "WebAssessment",
+  "path_key": "webassessment",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

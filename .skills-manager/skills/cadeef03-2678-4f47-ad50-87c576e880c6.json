@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cadeef03-2678-4f47-ad50-87c576e880c6",
+  "path": "wecom-unified",
+  "path_key": "wecom-unified",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "38ffae94-2911-4890-afa0-9eacac93e64a",
+  "path": "apifox__skillhub",
+  "path_key": "apifox__skillhub",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
