@@ -4,9 +4,12 @@
   "skill_id": "64e28221-9f48-47cd-bb71-3ec439e0365d",
   "sort_order": 4,
   "tools": {
+    "claude_code": true,
+    "codebuddy": true,
     "codex": true,
     "cursor": true,
     "github_copilot": true,
-    "qoder": true
+    "qoder": true,
+    "workbuddy": true
   }
 }
