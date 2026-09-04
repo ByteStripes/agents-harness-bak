@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "29d85aef-dd6c-4718-86c4-11ab562a9f93",
+  "path": "power-bi-report-design-consultation",
+  "path_key": "power-bi-report-design-consultation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "github/awesome-copilot/power-bi-report-design-consultation",
+    "subpath": "skills\\power-bi-report-design-consultation",
+    "branch": null
+  }
+}
