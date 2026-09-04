@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "tscanplus": {
-      "command": "/绝对路径/TscanPlus",
-      "args": ["mcp", "stdio"]
-    }
-  }
-}
