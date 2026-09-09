@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "519600d9-79af-4b5d-af19-7684a5cb1e9d",
+  "path": "hyperframes-audio",
+  "path_key": "hyperframes-audio",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/heygen-com/hyperframes",
+    "subpath": "skills\\hyperframes-audio",
+    "branch": null
+  }
+}

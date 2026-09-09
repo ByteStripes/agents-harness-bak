@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "aaa698ad-05ee-4d80-a7ff-2d1c260034e3",
+  "path": "general-video",
+  "path_key": "general-video",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/heygen-com/hyperframes",
+    "subpath": "skills\\general-video",
+    "branch": null
+  }
+}

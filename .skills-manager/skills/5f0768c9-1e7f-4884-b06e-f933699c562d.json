@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5f0768c9-1e7f-4884-b06e-f933699c562d",
+  "path": "slideshow",
+  "path_key": "slideshow",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/heygen-com/hyperframes",
+    "subpath": "skills\\slideshow",
+    "branch": null
+  }
+}

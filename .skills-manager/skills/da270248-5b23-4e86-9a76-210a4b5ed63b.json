@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "da270248-5b23-4e86-9a76-210a4b5ed63b",
+  "path": "embedded-captions",
+  "path_key": "embedded-captions",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/heygen-com/hyperframes",
+    "subpath": "skills\\embedded-captions",
+    "branch": null
+  }
+}

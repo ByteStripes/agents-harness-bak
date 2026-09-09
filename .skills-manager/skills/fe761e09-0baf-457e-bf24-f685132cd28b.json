@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fe761e09-0baf-457e-bf24-f685132cd28b",
+  "path": "hyperframes-keyframes",
+  "path_key": "hyperframes-keyframes",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/heygen-com/hyperframes",
+    "subpath": "skills\\hyperframes-keyframes",
+    "branch": null
+  }
+}

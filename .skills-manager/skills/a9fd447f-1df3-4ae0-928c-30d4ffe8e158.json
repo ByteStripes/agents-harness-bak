@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a9fd447f-1df3-4ae0-928c-30d4ffe8e158",
+  "path": "remotion-to-hyperframes",
+  "path_key": "remotion-to-hyperframes",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/heygen-com/hyperframes",
+    "subpath": "skills\\remotion-to-hyperframes",
+    "branch": null
+  }
+}

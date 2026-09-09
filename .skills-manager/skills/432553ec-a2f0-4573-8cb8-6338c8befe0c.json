@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "432553ec-a2f0-4573-8cb8-6338c8befe0c",
+  "path": "music-to-video",
+  "path_key": "music-to-video",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/heygen-com/hyperframes",
+    "subpath": "skills\\music-to-video",
+    "branch": null
+  }
+}

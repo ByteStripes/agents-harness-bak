@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5662e8ba-a982-4fdb-af6b-90d31148f5cf",
+  "path": "product-launch-video",
+  "path_key": "product-launch-video",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/heygen-com/hyperframes",
+    "subpath": "skills\\product-launch-video",
+    "branch": null
+  }
+}

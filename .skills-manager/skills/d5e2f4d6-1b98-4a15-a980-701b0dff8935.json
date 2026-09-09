@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d5e2f4d6-1b98-4a15-a980-701b0dff8935",
+  "path": "talking-head-recut",
+  "path_key": "talking-head-recut",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/heygen-com/hyperframes",
+    "subpath": "skills\\talking-head-recut",
+    "branch": null
+  }
+}

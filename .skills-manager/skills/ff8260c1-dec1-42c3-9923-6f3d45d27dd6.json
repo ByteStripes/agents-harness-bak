@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ff8260c1-dec1-42c3-9923-6f3d45d27dd6",
+  "path": "pr-to-video",
+  "path_key": "pr-to-video",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/heygen-com/hyperframes",
+    "subpath": "skills\\pr-to-video",
+    "branch": null
+  }
+}

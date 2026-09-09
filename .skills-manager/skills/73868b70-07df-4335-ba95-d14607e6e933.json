@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "73868b70-07df-4335-ba95-d14607e6e933",
+  "path": "faceless-explainer",
+  "path_key": "faceless-explainer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/heygen-com/hyperframes",
+    "subpath": "skills\\faceless-explainer",
+    "branch": null
+  }
+}

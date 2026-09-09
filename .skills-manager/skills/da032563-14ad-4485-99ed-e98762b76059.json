@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "da032563-14ad-4485-99ed-e98762b76059",
+  "path": "motion-graphics",
+  "path_key": "motion-graphics",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/heygen-com/hyperframes",
+    "subpath": "skills\\motion-graphics",
+    "branch": null
+  }
+}

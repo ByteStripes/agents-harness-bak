@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cc345327-3c84-46df-8a20-18bb77464cb1",
+  "path": "hyperframes-cli",
+  "path_key": "hyperframes-cli",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/heygen-com/hyperframes",
+    "subpath": "skills\\hyperframes-cli",
+    "branch": null
+  }
+}

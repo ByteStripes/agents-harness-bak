@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "791704b4-fafd-4563-8fd5-9b8dc11e1297",
+  "path": "figma",
+  "path_key": "figma",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/heygen-com/hyperframes",
+    "subpath": "skills\\figma",
+    "branch": null
+  }
+}

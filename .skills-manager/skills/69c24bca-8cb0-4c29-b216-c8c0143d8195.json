@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "69c24bca-8cb0-4c29-b216-c8c0143d8195",
+  "path": "hyperframes-animation",
+  "path_key": "hyperframes-animation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/heygen-com/hyperframes",
+    "subpath": "skills\\hyperframes-animation",
+    "branch": null
+  }
+}
