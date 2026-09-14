@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "29d55228-5812-4bec-9b67-c29d648911c2",
+  "path": "website-rebuild",
+  "path_key": "website-rebuild",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/boyang-hu/website-rebuild-skill",
+    "subpath": "skills\\website-rebuild",
+    "branch": null
+  }
+}
