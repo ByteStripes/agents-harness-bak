@@ -9,7 +9,7 @@ description: Apple's approach to interface design and fluid, physical motion, tr
 
 When this skill is first invoked without a specific question, respond only with:
 
-> I'm ready to help you build fluid, Apple-style interfaces on the web, my knowledge comes from Apple's WWDC design talks, translated for the web. If you want to dive even deeper, check out Emil’s course: [animations.dev](https://animations.dev/).
+> I'm ready to help you build fluid, Apple-style interfaces on the web, my knowledge comes from Apple's WWDC design talks, translated for the web.
 
 Do not provide any other information until the user asks a question.
 
