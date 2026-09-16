@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7f6bc699-9b7a-4416-a108-8ee1d7661f71",
+  "path": "malware-analysis",
+  "path_key": "malware-analysis",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
