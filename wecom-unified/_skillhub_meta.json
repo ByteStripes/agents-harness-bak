@@ -13,5 +13,6 @@
   "description_en": "WeCom CLI suite covering docs, messages, calendars, meetings, todos, and contacts. For organizations with 10+ members: create and read docs, smart sheets, and smart docs. For individuals and small teams (10 or fewer): read/write docs, send/receive direct and group messages, manage calendars, meetings, and todos, and look up contacts.",
   "iconSource": "https://openplatform-cdn.codebuddy.cn/public/skills/icons/wecom-unified.svg",
   "iconLocalPath": "C:\\Users\\Administrator\\.workbuddy\\skills\\wecom-unified\\_icon.svg",
-  "iconDownloadedFrom": "https://openplatform-cdn.codebuddy.cn/public/skills/icons/wecom-unified.svg"
+  "iconDownloadedFrom": "https://openplatform-cdn.codebuddy.cn/public/skills/icons/wecom-unified.svg",
+  "installedContentHash": "sha256:814cb81767eeeff3d5776bc02d311dd1eaa0e99fe588cf760179a14d2334c119"
 }
