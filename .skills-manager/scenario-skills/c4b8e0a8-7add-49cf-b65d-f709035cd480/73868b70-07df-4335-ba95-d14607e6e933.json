@@ -4,10 +4,12 @@
   "skill_id": "73868b70-07df-4335-ba95-d14607e6e933",
   "sort_order": 5,
   "tools": {
+    "antigravity": true,
     "codebuddy": true,
     "codex": true,
     "cursor": true,
     "deepseek_harness": true,
+    "gemini_cli": true,
     "github_copilot": true,
     "qoder": true,
     "workbuddy": true

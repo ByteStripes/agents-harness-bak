@@ -504,12 +504,15 @@ function rewriteText(text, ext) {
     // CURRENT page, a silently broken link) and not left alone (it would point
     // at the live origin). Found by the payload gate, which saw this side and
     // the build layer disagree on the same input.
-    text = text.replace(new RegExp(`https?://${h.replace(/\./g, "\\.")}(?![/\\w.-])`, "g"), "/");
+    // A bare origin is a base for `base + path` (Stripe's cookie helper returns
+    // "https://stripe.com" and concatenates "/cookie-settings"). Replacing it
+    // with "/" makes `new URL("//cookie-settings")` throw and React never hydrates.
+    text = text.replace(new RegExp(`https?://${h.replace(/\./g, "\\.")}(?![/\\w.-])`, "g"), `http://${HOST}:${PORT}`);
     text = text.replaceAll(`https:\\/\\/${h}\\/`, "\\/").replaceAll(`http:\\/\\/${h}\\/`, "\\/");
     // The ESCAPED no-path form (`"site_url":"https:\/\/host"`) is the home page too:
     // localise to `\/`, exactly what lib/shell-build.mjs does for the build layer —
     // the two implementations disagreed on this one shape (lamalama).
-    text = text.replace(new RegExp(`https?:\\\\/\\\\/${h.replace(/\./g, "\\.")}(?![\\\\\\w.-])`, "g"), "\\/");
+    text = text.replace(new RegExp(`https?:\\\\/\\\\/${h.replace(/\./g, "\\.")}(?![\\\\\\w.-])`, "g"), `http:\\/\\/${HOST}:${PORT}`);
     text = text.replaceAll(`\\/\\/${h}\\/`, "\\/");
     // Shape 6: UNICODE-ESCAPED slashes. Serialised payloads escape "/" as
     // \u002F so the blob can never contain a literal "</script>" — Nuxt's
@@ -717,8 +720,11 @@ async function resolveOne(pathname) {
   // three real fonts that were sitting on disk. ⚠ The symptom arrives far from
   // the cause — as missing fonts, then as "GSAP target not found" for elements
   // that never got laid out.
-  const clean = path.normalize(decodeURIComponent(pathname));
-  if (clean.split(/[/\\]/).some((seg) => seg === "..")) return null;
+  // URL paths stay slash-separated. path.normalize on Windows turns
+  // "/ext/host/a.css" into "\ext\host\a.css", so the /ext/ prefix never matches
+  // and every CDN asset 404s while the file sits in assets/<host>/.
+  const clean = decodeURIComponent(pathname).replaceAll("\\", "/");
+  if (clean.split("/").some((seg) => seg === "..")) return null;
   // ⛔ Never serve a git repository. The standard layouts point --root at
   // mirror/ or site/, where no .git lives — but a server pointed at a repo
   // root answers /.git/HEAD, and from there the whole object store walks out
@@ -728,6 +734,29 @@ async function resolveOne(pathname) {
   if (clean.split(/[/\\]/).some((seg) => seg === ".git")) return null;
 
   for (const root of ROOTS) {
+    // Stripe's marketing build asks for /mkt-ssr-statics/... on the page origin.
+    // Those bytes were mirrored from b.stripecdn.com under assets/<host>/.
+    if (clean.startsWith("/mkt-ssr-statics/")) {
+      const hit = await statFile(path.join(root, "assets", "b.stripecdn.com", clean.slice(1)));
+      if (hit) return hit;
+    }
+    // The page asks for /_workers/_next/static/chunks/*.js. Those files are
+    // published under the normal chunks directory, not under /_workers/.
+    if (clean.startsWith("/_workers/_next/static/chunks/")) {
+      const name = clean.slice("/_workers/_next/static/chunks/".length);
+      const hit = await statFile(path.join(
+        root,
+        "assets",
+        "b.stripecdn.com",
+        "mkt-ssr-statics",
+        "assets",
+        "_next",
+        "static",
+        "chunks",
+        name,
+      ));
+      if (hit) return hit;
+    }
     if (clean.startsWith("/ext/")) {
       // mirror layout keeps external assets under assets/<host>/
       const hit =
