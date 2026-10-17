@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "33853ae4-199b-4058-a207-ef811588ca32",
+  "path": "animejs",
+  "path_key": "animejs",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/BowTiedSwan/animejs-skills",
+    "subpath": null,
+    "branch": null
+  }
+}

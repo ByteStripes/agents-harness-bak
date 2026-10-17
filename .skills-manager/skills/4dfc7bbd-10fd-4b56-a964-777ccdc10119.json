@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4dfc7bbd-10fd-4b56-a964-777ccdc10119",
+  "path": "ui-design-system",
+  "path_key": "ui-design-system",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/creative-design/ui-design-system",
+    "subpath": "cli-tool\\components\\skills\\creative-design\\ui-design-system",
+    "branch": "main"
+  }
+}
