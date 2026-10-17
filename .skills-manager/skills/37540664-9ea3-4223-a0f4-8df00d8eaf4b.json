@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "37540664-9ea3-4223-a0f4-8df00d8eaf4b",
+  "path": "gsap-core",
+  "path_key": "gsap-core",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/greensock/gsap-skills",
+    "subpath": "skills\\gsap-core",
+    "branch": null
+  }
+}
