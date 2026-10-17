@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ea3adb45-48e1-4862-ac7c-f4b3b4020c27",
+  "path": "21st-ui-review",
+  "path_key": "21st-ui-review",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/21st-dev/skill",
+    "subpath": "skills\\21st-ui-review",
+    "branch": null
+  }
+}

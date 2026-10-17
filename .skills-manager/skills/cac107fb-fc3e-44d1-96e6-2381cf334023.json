@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cac107fb-fc3e-44d1-96e6-2381cf334023",
+  "path": "21st-ui-build",
+  "path_key": "21st-ui-build",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/21st-dev/skill",
+    "subpath": "skills\\21st-ui-build",
+    "branch": null
+  }
+}

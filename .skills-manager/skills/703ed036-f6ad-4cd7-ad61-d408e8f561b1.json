@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "703ed036-f6ad-4cd7-ad61-d408e8f561b1",
+  "path": "21st-ui-explore",
+  "path_key": "21st-ui-explore",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/21st-dev/skill",
+    "subpath": "skills\\21st-ui-explore",
+    "branch": null
+  }
+}

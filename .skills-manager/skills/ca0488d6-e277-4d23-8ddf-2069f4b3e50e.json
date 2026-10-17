@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ca0488d6-e277-4d23-8ddf-2069f4b3e50e",
+  "path": "21st-cli-use",
+  "path_key": "21st-cli-use",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/21st-dev/skill",
+    "subpath": "skills\\21st-cli-use",
+    "branch": null
+  }
+}

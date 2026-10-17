@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "791c2e72-68b6-47c3-bc82-32f4c6368187",
+  "path": "21st-ai",
+  "path_key": "21st-ai",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/21st-dev/skill",
+    "subpath": "skills\\21st-ai",
+    "branch": null
+  }
+}

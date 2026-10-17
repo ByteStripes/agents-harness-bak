@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "627e4a71-dc8d-4640-854f-73f70c84d2b2",
+  "path": "21st-registry",
+  "path_key": "21st-registry",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/21st-dev/skill",
+    "subpath": "skills\\21st-registry",
+    "branch": null
+  }
+}
