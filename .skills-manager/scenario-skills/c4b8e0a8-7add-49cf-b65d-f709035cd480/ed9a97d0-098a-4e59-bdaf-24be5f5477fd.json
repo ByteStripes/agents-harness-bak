@@ -5,6 +5,7 @@
   "sort_order": 11,
   "tools": {
     "codex": true,
-    "cursor": true
+    "cursor": true,
+    "deepseek_harness": true
   }
 }
