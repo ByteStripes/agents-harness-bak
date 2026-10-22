@@ -6,6 +6,7 @@
   "tools": {
     "codex": true,
     "cursor": true,
-    "deepseek_harness": true
+    "deepseek_harness": true,
+    "workbuddy": true
   }
 }
