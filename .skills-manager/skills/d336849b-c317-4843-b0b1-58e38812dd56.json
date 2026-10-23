@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d336849b-c317-4843-b0b1-58e38812dd56",
+  "path": "performance",
+  "path_key": "performance",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/addyosmani/web-quality-skills",
+    "subpath": "skills\\performance",
+    "branch": null
+  }
+}

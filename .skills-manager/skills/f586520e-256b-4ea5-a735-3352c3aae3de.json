@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f586520e-256b-4ea5-a735-3352c3aae3de",
+  "path": "best-practices",
+  "path_key": "best-practices",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/addyosmani/web-quality-skills",
+    "subpath": "skills\\best-practices",
+    "branch": null
+  }
+}

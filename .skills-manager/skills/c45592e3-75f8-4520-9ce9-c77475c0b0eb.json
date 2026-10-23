@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c45592e3-75f8-4520-9ce9-c77475c0b0eb",
+  "path": "core-web-vitals",
+  "path_key": "core-web-vitals",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/addyosmani/web-quality-skills",
+    "subpath": "skills\\core-web-vitals",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "464adc6a-a63d-42e6-a23e-5edff34c8856",
+  "path": "seo",
+  "path_key": "seo",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/addyosmani/web-quality-skills",
+    "subpath": "skills\\seo",
+    "branch": null
+  }
+}

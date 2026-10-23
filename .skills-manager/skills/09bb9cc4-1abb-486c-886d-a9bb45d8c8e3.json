@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "09bb9cc4-1abb-486c-886d-a9bb45d8c8e3",
+  "path": "web-quality-audit",
+  "path_key": "web-quality-audit",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/addyosmani/web-quality-skills",
+    "subpath": "skills\\web-quality-audit",
+    "branch": null
+  }
+}
