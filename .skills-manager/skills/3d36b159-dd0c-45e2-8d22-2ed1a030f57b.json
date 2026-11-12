@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3d36b159-dd0c-45e2-8d22-2ed1a030f57b",
+  "path": "vmprotect-unpack",
+  "path_key": "vmprotect-unpack",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/UzawaReisaQwQ/codex-vmprotect-unpack-skill",
+    "subpath": "vmprotect-unpack",
+    "branch": null
+  }
+}
