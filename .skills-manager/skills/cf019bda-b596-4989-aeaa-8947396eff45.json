@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cf019bda-b596-4989-aeaa-8947396eff45",
+  "path": "anti-defensive-writing",
+  "path_key": "anti-defensive-writing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/Kiterlin/anti-defensive-writing",
+    "subpath": null,
+    "branch": null
+  }
+}

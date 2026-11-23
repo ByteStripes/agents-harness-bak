@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "type": "agent-skill",
+  "name": "anti-defensive-writing",
+  "display_name": "Anti-Defensive Writing",
+  "description": "Reduce defensive writing by removing unnecessary caveats, disclaimers, hedges, apology-like framing, negative self-limiting statements, and over-explanations while preserving necessary precision.",
+  "license": "MIT",
+  "repository": "https://github.com/Kiterlin/anti-defensive-writing",
+  "default_ref": "main",
+  "skill_path": "skill/anti-defensive-writing",
+  "entrypoint": "skill/anti-defensive-writing/SKILL.md",
+  "root_entrypoint": "SKILL.md",
+  "install": {
+    "shell": {
+      "script": "install.sh",
+      "destination_argument": "--dest <skills-dir>",
+      "command": "curl -fsSL https://raw.githubusercontent.com/Kiterlin/anti-defensive-writing/main/install.sh | sh -s -- --dest \"$HOME/.agents/skills\""
+    },
+    "powershell": {
+      "script": "install.ps1",
+      "destination_argument": "-Dest <skills-dir>",
+      "command": "& ([scriptblock]::Create((Invoke-RestMethod https://raw.githubusercontent.com/Kiterlin/anti-defensive-writing/main/install.ps1))) -Dest \"$HOME/.agents/skills\""
+    }
+  },
+  "tags": [
+    "codex",
+    "claude-code",
+    "agent-skill",
+    "writing",
+    "editing",
+    "academic-writing"
+  ],
+  "installed_files": [
+    "SKILL.md"
+  ]
+}

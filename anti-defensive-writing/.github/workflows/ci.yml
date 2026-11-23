@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    name: Validate Skill & Shell Installer
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install YAML parser
+        run: pip install pyyaml
+      - name: Validate skill and installable payload
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          import yaml
+          metadata = json.loads(Path('skill.json').read_text())
+          payload = Path(metadata['skill_path'])
+          assert sorted(p.relative_to(payload).as_posix() for p in payload.rglob('*')) == ['SKILL.md']
+          assert Path('SKILL.md').read_bytes() == (payload / 'SKILL.md').read_bytes()
+          frontmatter = Path('SKILL.md').read_text().split('---', 2)[1]
+          skill = yaml.safe_load(frontmatter)
+          assert skill['name'] == metadata['name']
+          assert skill['description']
+          print('Skill metadata, mirror, and single-file payload are valid.')
+          PY
+      - name: Check shell syntax
+        run: sh -n install.sh
+      - name: Check shell installation behavior
+        run: python -m unittest discover -s tests -v
+      - name: Lint installer
+        run: shellcheck install.sh
+
+  windows-install:
+    name: Validate PowerShell Installer
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Windows installation behavior
+        shell: pwsh
+        run: ./tests/test-install.ps1
