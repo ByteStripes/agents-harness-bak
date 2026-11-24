@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "32dd55f7-70a2-4f6c-a437-aaf595a1717f",
+  "path": "android-reverse-engineering",
+  "path_key": "android-reverse-engineering",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/CreditTone/android-reverse-engineering-skill",
+    "subpath": "android-reverse-engineering\\skills\\android-reverse-engineering",
+    "branch": null
+  }
+}
