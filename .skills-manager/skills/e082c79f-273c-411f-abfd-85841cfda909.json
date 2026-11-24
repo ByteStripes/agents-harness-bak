@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e082c79f-273c-411f-abfd-85841cfda909",
+  "path": "material-design-3-ui",
+  "path_key": "material-design-3-ui",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/skydashnet/material-design-3-ui-skill",
+    "subpath": null,
+    "branch": null
+  }
+}

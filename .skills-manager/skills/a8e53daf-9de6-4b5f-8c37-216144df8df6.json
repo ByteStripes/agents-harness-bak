@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a8e53daf-9de6-4b5f-8c37-216144df8df6",
+  "path": "material-design",
+  "path_key": "material-design",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/yhongm/material-design-skill",
+    "subpath": null,
+    "branch": null
+  }
+}
